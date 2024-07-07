@@ -1,0 +1,5 @@
+demo => statement interface
+prepared => prepared statement interface
+callable => callable statement interface
+extract => resultset
+setBinary => blob
