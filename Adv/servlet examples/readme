@@ -1,3 +1,6 @@
 start 
-contains diff examples about
-annotation, count view on the website, mime file download, load pictures, display time
+contains different examples about
+annotation(/annotation), count view on the website(/count), mime file download(/mime), load pictures(/picture), display time(/time)
+
+url
+basic example of getParameter(), getWriter() (/books.html)
