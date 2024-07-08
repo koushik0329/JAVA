@@ -4,3 +4,6 @@ annotation(/annotation), count view on the website(/count), mime file download(/
 
 url
 basic example of getParameter(), getWriter() (/books.html)
+
+session1
+to get session information
