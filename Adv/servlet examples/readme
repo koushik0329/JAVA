@@ -6,4 +6,4 @@ url
 basic example of getParameter(), getWriter() (/books.html)
 
 session1
-to get session information
+to get session information and to example of HttpSession
