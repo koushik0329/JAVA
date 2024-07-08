@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>start</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Time</display-name>
+    <servlet-name>Time</servlet-name>
+    <servlet-class>start.Time</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Time</servlet-name>
+    <url-pattern>/time</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Count</display-name>
+    <servlet-name>Count</servlet-name>
+    <servlet-class>start.Count</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Count</servlet-name>
+    <url-pattern>/count</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Picture</display-name>
+    <servlet-name>Picture</servlet-name>
+    <servlet-class>start.Picture</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Picture</servlet-name>
+    <url-pattern>/picture</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MIME</display-name>
+    <servlet-name>MIME</servlet-name>
+    <servlet-class>start.MIME</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MIME</servlet-name>
+    <url-pattern>/mime</url-pattern>
+  </servlet-mapping>
+  <!-- xml tags related to annotation are removed from here-->
+  
+</web-app>
