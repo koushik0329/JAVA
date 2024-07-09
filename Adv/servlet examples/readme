@@ -9,7 +9,7 @@ url
 basic example of getParameter(), getWriter() (/books.html)
 
 login
-jdbc+servlet
+jdbc+servlet && using servletcontext and context parameter
 
 session1
 to get session information and to example of HttpSession
