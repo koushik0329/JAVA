@@ -1,6 +1,7 @@
 package login;
 
 import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -8,7 +9,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.sql.*;
-import java.sql.SQLException;
 
 /**
  * Servlet implementation class RegServ
@@ -31,8 +31,17 @@ public class RegServ extends HttpServlet {
 	public void init(ServletConfig config) throws ServletException {
 		// TODO Auto-generated method stub
 		try {
-			Class.forName("oracle.jdbc.driver.OracleDriver");
-			con= DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","koushikkoushik");
+			//using servletcontext and context parameter
+			ServletContext sc=config.getServletContext();
+			String s1=sc.getInitParameter("driver");
+			String s2=sc.getInitParameter("url");
+			String s3=sc.getInitParameter("username");
+			String s4=sc.getInitParameter("password");
+			Class.forName(s1);
+	        con = DriverManager.getConnection(s2,s3,s4);
+	        //without using context parameter
+//			Class.forName("oracle.jdbc.driver.OracleDriver");
+//	        con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "system", "koushikkoushik");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
