@@ -6,7 +6,7 @@ contains different examples about
 annotation(/annotation), count view on the website(/count), mime file download(/mime), load pictures(/picture), display time(/time)
 
 url
-basic example of getParameter(), getWriter() (/books.html)
+type pf session tracking .basic example of getParameter(), getWriter() (/books.html)
 
 login
 jdbc+servlet && using servletcontext and context parameter
