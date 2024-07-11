@@ -13,3 +13,6 @@ jdbc+servlet && using servletcontext and context parameter
 
 session1
 to get session information and to example of HttpSession
+
+cookies
+Session tracking method using cookies-how to create a new cookie, addcookie(cookie), getcookie()
