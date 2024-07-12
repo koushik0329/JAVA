@@ -5,9 +5,6 @@ start
 contains different examples about
 annotation(/annotation), count view on the website(/count), mime file download(/mime), load pictures(/picture), display time(/time)
 
-url
-type pf session tracking .basic example of getParameter(), getWriter() (/books.html)
-
 login
 jdbc+servlet && using servletcontext and context parameter
 
@@ -16,3 +13,9 @@ to get session information and to example of HttpSession
 
 cookies
 Session tracking method using cookies-how to create a new cookie, addcookie(cookie), getcookie()
+
+url
+type of session tracking .basic example of getParameter(), getWriter() (/books.html)
+
+session
+session tracking method-http session with url rewriting and cookies
