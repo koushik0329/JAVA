@@ -19,3 +19,9 @@ type of session tracking .basic example of getParameter(), getWriter() (/books.h
 
 session
 session tracking method-http session with url rewriting and cookies
+
+hff
+session tracking method- hidden form fields
+
+scl
+example of listeners, getServletContext(), setAttribute(), getAttribute()
