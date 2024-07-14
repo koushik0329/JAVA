@@ -24,4 +24,4 @@ hff
 session tracking method- hidden form fields
 
 scl
-example of listeners, getServletContext(), setAttribute(), getAttribute()
+type of servlet listener, getServletContext(), setAttribute(), getAttribute()
