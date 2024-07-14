@@ -30,4 +30,7 @@ hsl
 type of servlet listener-httpsessionlistener, getsession()
 
 filters1
-basic example of filter and connectivity of database
+basic example of filter and connectivity of database (login and welcome page)
+
+filters
+example of getServletContext. how many times a web page is executed
