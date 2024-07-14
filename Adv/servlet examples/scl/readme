@@ -7,3 +7,6 @@ In xml file,
 </listener>
 
 this tag mentioned in xml file is the configuration and using that tag is that how every other servlet knows where contextInitializer method is.
+
+
+Instead of xml file, we can use annotations (@WebListener)
