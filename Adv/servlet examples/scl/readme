@@ -1,0 +1,1 @@
+using listeners, we can use a instance variable from one servlet(MyListener.java) in other servlets(MyServlet.java) using set and get attribute methods
