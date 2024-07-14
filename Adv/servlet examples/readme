@@ -28,3 +28,6 @@ type of servlet listener-servletcontextlistener, getServletContext(), setAttribu
 
 hsl
 type of servlet listener-httpsessionlistener, getsession()
+
+filters1
+basic example of filter and connectivity of database
