@@ -1,1 +1,9 @@
 using listeners, we can use a instance variable from one servlet(MyListener.java) in other servlets(MyServlet.java) using set and get attribute methods
+
+In xml file,
+
+<listener>
+    <listener-class>scl.MyListener</listener-class>
+</listener>
+
+this tag mentioned in xml file is the configuration and using that tag is that how every other servlet knows where contextInitializer method is.
