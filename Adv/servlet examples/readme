@@ -24,4 +24,7 @@ hff
 session tracking method- hidden form fields
 
 scl
-type of servlet listener, getServletContext(), setAttribute(), getAttribute()
+type of servlet listener-servletcontextlistener, getServletContext(), setAttribute(), getAttribute()
+
+hsl
+type of servlet listener-httpsessionlistener, getsession()
