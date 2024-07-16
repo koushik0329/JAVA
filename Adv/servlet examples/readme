@@ -39,4 +39,4 @@ redirect(search bar-redirecting to google)
 example of sendRedirect(), this method is used to redirect response to another resource
 
 redirect1(servlet+jsp)
-RequestDispatcher interface, consists of 2 methods-forward("/servlet")&include("/servlet")(login page(username:abc,password:abc) and welcome page)  
+RequestDispatcher interface, consists of 2 methods-forward("/servlet")&include("/servlet")  
