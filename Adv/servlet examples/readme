@@ -34,3 +34,6 @@ basic example of filter and connectivity of database (login and welcome page)
 
 filters
 example of getServletContext. how many times a web page is executed
+
+redirect
+example of sendRedirect(), this method is used to redirect response to another resource
