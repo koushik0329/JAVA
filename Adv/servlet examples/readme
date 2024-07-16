@@ -38,5 +38,5 @@ example of getServletContext. how many times a web page is executed
 redirect(search bar-redirecting to google)
 example of sendRedirect(), this method is used to redirect response to another resource
 
-redirect1(servlet+jsp)
+redirect1(servlet+jsp)(login and welcome page)
 RequestDispatcher interface, consists of 2 methods-forward("/servlet")&include("/servlet")  
