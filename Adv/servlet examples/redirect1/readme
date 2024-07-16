@@ -1,1 +1,8 @@
-(login page(username:abc,password:abc) and welcome page)  
+redirect1(servlet+jsp)
+RequestDispatcher interface, consists of 2 methods-forward("/servlet")&include("/servlet")
+
+(login page(username:abc,password:abc) and welcome page)
+
+response.setContentType("text/html");
+//			without setcontenttype(), the output will print index.html page. using the abive line, it makes sure index.html is printed as proper html page
+			
