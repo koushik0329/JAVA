@@ -40,3 +40,6 @@ example of sendRedirect(), this method is used to redirect response to another r
 
 redirect1(servlet+jsp)(login and welcome page)
 RequestDispatcher interface, consists of 2 methods-forward("/servlet")&include("/servlet")  
+
+jsp
+contains various examples of how to use jsp tags and how to use jsp tags in html. time, count, table, login page(DB connectivity) etc 
