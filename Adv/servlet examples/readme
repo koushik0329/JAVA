@@ -46,3 +46,6 @@ contains various examples of how to use jsp tags and how to use jsp tags in html
 
 bean
 jsp with java beans(jsp+java). useBean, setProperty, getProperty simple example.(welcome message)
+
+bean2
+jsp with java bean(jsp+html+java). example of multiple getter and setter methods.
