@@ -43,3 +43,6 @@ RequestDispatcher interface, consists of 2 methods-forward("/servlet")&include("
 
 jsp
 contains various examples of how to use jsp tags and how to use jsp tags in html. time, count, table, login page(DB connectivity) etc 
+
+bean
+jsp with java beans(jsp+java). useBean, setProperty, getProperty simple example.(welcome message)
