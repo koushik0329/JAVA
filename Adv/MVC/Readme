@@ -1,0 +1,4 @@
+User.java -> Model(Its stores the data)
+webapp(.jsp and .html files) -> View(frontend)
+controllers(.java files) -> Controller(Backend)
+DB(.java file) -> dbcon(DB)
